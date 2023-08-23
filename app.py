@@ -393,10 +393,10 @@ def create_chart(chart_type, data, x_column, y_column):
 
 def main():
 
-    container.write(" #  Beesline # ")
+  
     image = Image.open("beesline.png")
     container.image(image, width=200)
-    container.write(" #  Data Analysis and Visualization # ")
+    container.write(" #   Beesline Data Analysis and Visualization # ")
     
     st.sidebar.image(image, width=50)
     file_option = st.sidebar.radio("Data Source", options=["Upload Local File", "Enter Online Dataset"])
