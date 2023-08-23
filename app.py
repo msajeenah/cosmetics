@@ -394,7 +394,7 @@ def create_chart(chart_type, data, x_column, y_column):
 def main():
 
     
-    image = Image.open("pandasFuny.jpg")
+    image = Image.open("beesline.png")
     container.image(image, width=200)
     container.write(" # Data Analysis and Visualization # ")
     
